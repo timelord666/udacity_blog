@@ -1,7 +1,180 @@
 .container__post {
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
 
-        grid-template-rows: 100px minmax(100vh, 1fr) 50px;
+    grid-template-rows: 100px minmax(100vh, 1fr) 50px;
 
 }
+
+
+.post {
+    display: grid;
+
+    grid-template-columns: 3fr 1fr;
+
+    grid-template-rows: 700px minmax(100vh, 1fr);
+
+    grid-template-areas: 
+    "first"
+    "second";
+
+
+
+    gap: 80px 30px;
+
+    margin-top: 30px;
+
+    padding-right: 110px;
+
+    padding-left: 110px;
+    
+}
+
+
+
+.post__item img {
+    width: 100%;
+
+    margin-top: 25px;
+}
+
+.post__item h1 {
+    margin: 0;
+
+    font-weight: 300;
+
+    font-size: 3em;
+
+    line-height: 56px;
+
+    color: var(--text);
+}
+
+
+.post__item span {
+    font-size: 0.7em;
+
+    
+
+    line-height: 15px;
+
+    color: var(--text);
+
+    
+}
+
+.post__item p {
+    font-size: 0.9em;
+
+    line-height: 15px;
+
+    color: var(--text);
+
+}
+
+.post__item {
+    padding: 25px 15px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2),
+    0px 2px 1px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14);
+
+   grid-row: first / second;
+
+
+}
+
+
+
+
+.post__author {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    
+
+
+
+    padding: 50px 30px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2),
+    0px 2px 1px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14);
+        
+}
+
+
+.post__author h2 {
+    font-weight: 300;
+
+    font-size: 1.5em;
+
+    line-height: 28px;
+
+    color: var(--text);
+
+    margin-bottom: 0px;
+}
+
+
+.post__author h3 {
+
+    font-weight: 300;
+
+    font-size: 1em;
+
+    line-height: 21px;
+
+    color: var(--text);
+
+    margin-top: 0px;
+
+}
+
+
+.post__author p {
+    font-style: italic;
+
+    font-weight: normal;
+
+    font-size: 0.8em;
+
+    line-height: 15px;
+
+    color: var(--text);
+}
+
+
+
+
+.author__social {
+    margin: auto;
+}
+
+
+.social__item img {
+    margin-right: 20px;
+}
+
+.social__item a {
+    display: flex;
+
+    align-items: center;
+}
+
+
+.social__item {
+
+
+    margin-top: 15px;
+}
+
+
+
+
+
+
 
