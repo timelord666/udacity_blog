@@ -1,5 +1,6 @@
 @import url(normalize.css);
 @import url(post.css);
+@import url(contacts.css);
 
 /* div {
     border: 1px solid red;
@@ -17,12 +18,18 @@ html {
 
     --primary_color: #3700B3;
     --text: rgba(0, 0, 0, 0.6);
+    --current-link: #985EFF;
 }
 
 .link {
     color: var(--primary_color);
 
     text-decoration-line: underline;
+}
+
+
+.link__current {
+    color: var(--current-link);
 }
 
 
