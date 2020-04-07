@@ -80,7 +80,7 @@ html {
 
 }
 
-.header__nav ul li {
+.header__nav ul li:first-child {
     margin-right: 55px;
 }
 
