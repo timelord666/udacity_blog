@@ -1,0 +1,58 @@
+.about h1 {
+    font-weight: 300;
+
+    font-size: 5em;
+
+    line-height: 75px;
+
+    color: var(--text);
+
+    text-align: center;
+}
+
+
+.about__content {
+
+    padding-right: 110px;
+
+    padding-left: 110px;
+
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+.about__img {
+    width: 40%;
+    
+
+}
+
+.about__img img {
+    width: 100%;
+    
+    box-shadow: 1px 3px 10px 2px rgba(0, 0, 0, 0.75);
+}
+
+
+.about__text {
+
+    font-style: italic;
+
+    font-weight: normal;
+
+    font-size: 1.8em;
+
+    line-height: 28px;
+
+    color: var(--text);
+
+    width: 370px;
+
+
+}
+
+.about__text p {
+    margin: 0px;
+}
