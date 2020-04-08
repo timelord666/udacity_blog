@@ -175,6 +175,54 @@
 
 
 
+/* Media section */
+
+
+
+@media (max-width: 920px) {
+
+    .post__author {
+
+
+        display: none;
+    }
+
+
+    .post {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .post {
+        padding-right: 50px;
+
+        padding-left: 50px;
+    }
+
+    .post__item h1 {
+        font-size: 2.5em;
+    }
+
+}
+
+
+
+@media (max-width: 480px) {
+
+    .post {
+        padding-right: 0px;
+
+        padding-left: 0px;
+    }
+
+
+}
+
+
+
 
 
 

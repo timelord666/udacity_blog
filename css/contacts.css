@@ -82,3 +82,26 @@
 
     margin-right: 30px;
 }
+
+
+
+
+/* Media section */
+
+
+
+
+@media (max-width: 480px) {
+
+    .contact__social {
+        width: 320px;
+
+        height: 400px;
+
+        flex-direction: column;
+
+        margin-top: 40px;
+    }
+
+    
+}
