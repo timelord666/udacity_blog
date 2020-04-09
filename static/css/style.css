@@ -15,6 +15,11 @@ html {
     font-size: 18px;
 }
 
+figcaption {
+    color: var(--text);
+    text-align: center;
+}
+
 :root {
 
     --primary_color: #3700B3;
