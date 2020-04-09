@@ -6,7 +6,6 @@
     justify-content: flex-start;
 
     align-items: center;
-
 }
 
 
@@ -41,7 +40,6 @@
 
 
 .contact__social {
-
     display: flex;
 
     flex-wrap: wrap;
@@ -63,23 +61,16 @@
     width: 150px;
 
     height: 50px;
-
-
 }
 
 .contact__item a {
-
         display: flex;
-
-        
 
         align-items: center;
 }
 
 
 .contact__item img {
-
-
     margin-right: 30px;
 }
 
@@ -92,7 +83,6 @@
 
 
 @media (max-width: 480px) {
-
     .contact__social {
         width: 320px;
 
@@ -102,6 +92,4 @@
 
         margin-top: 40px;
     }
-
-    
 }
